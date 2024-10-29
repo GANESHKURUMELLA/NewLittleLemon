@@ -3,10 +3,10 @@ function App() {
   return (
     < div className = "App">
 
-    <header>
+    <header className="heading">
       Little Lemon
     </header>
-    <nav>
+    <nav className='navigation'>
       <ul>
         <li>Home</li>
         <li>Book a table</li>
@@ -14,10 +14,10 @@ function App() {
         <li>Contact us</li>
       </ul>
     </nav>
-    <main>
+    <main className='main_section'>
 
     </main>
-    <footer>
+    <footer className='footer_section'>
       All rights reserved
     </footer>
     </div>
